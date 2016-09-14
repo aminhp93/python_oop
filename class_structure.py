@@ -23,3 +23,18 @@ class Human(object):
 			self.health -= self.strength
 			print 'acttacked failed'
 			return False
+
+# michael = Human()
+# michael.taunt
+# jimmy = Human()
+# print michael.taunt
+# print jimmy
+
+class Cat(object):
+	def __init__(self, color, type, age):
+		self.color = color
+		self.type = type
+		self.age = age
+
+garfield = Cat('orange', 'fat', 5)
+print 'Garfield color: ', garfield.color
